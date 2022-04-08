@@ -1,6 +1,8 @@
 # ACE 
 ## *C++ Networking Library for Windows*
-![ace_logo](https://i.imgur.com/eaH0SJf.jpg)
+
+![ACE-logos - Copy](https://user-images.githubusercontent.com/48070316/162492398-7d98083e-c759-4ca9-8bbe-b3886d7fb156.jpeg)
+
 Welcome to ACE, an Accessible, Clean and Easy-to-use C++ networking library for Windows applications.
 
 This project started in 2021 as part of my last year's Technical Computing Project at Sheffield Hallam University with the goal of furthering my understanding of networking and on-line programming.
@@ -34,24 +36,24 @@ class MessagePacket: public Packet {
   std::string m_Message;
 
   virtual void Serialize(char * data) override {
-    memcpy(data, & m_Type, sizeof(PacketType)); //first serialize the type
+    memcpy(data, & m_Type, sizeof(PacketType));
 
     size_t length = m_Message.length();
-    memcpy(data + sizeof(PacketType), & length, sizeof(size_t)); //then serialize the length of the string
+    memcpy(data + sizeof(PacketType), & length, sizeof(size_t));
 
     const char * string = m_Message.c_str();
-    memcpy(data + sizeof(PacketType) + sizeof(size_t), string, length); //finally serialize the string itself
+    memcpy(data + sizeof(PacketType) + sizeof(size_t), string, length);
   }
 
   virtual void Deserialize(char * data) override {
-    memcpy( & m_Type, data, sizeof(PacketType)); //first deserialize the type
+    memcpy( & m_Type, data, sizeof(PacketType));
 
     size_t length;
-    memcpy( & length, data + sizeof(PacketType), sizeof(size_t)); //then deserialize the length of the string
+    memcpy( & length, data + sizeof(PacketType), sizeof(size_t));
 
-    char * string = new char[length + 1]; //+1 to accomodate for null termination
+    char * string = new char[length + 1];
     memset(string, 0, length + 1);
-    memcpy(string, data + sizeof(PacketType) + sizeof(size_t), length); //finally serialize the string itself
+    memcpy(string, data + sizeof(PacketType) + sizeof(size_t), length);
 
     m_Message = string;
     delete[] string;
@@ -99,7 +101,7 @@ This project was created to iron out the simplest bugs in the library and was us
 An online recreation of the classic 1972 Atari arcade game; Pong.
 
 This project was centred around testing if the library’s design was actually usable for a game deliverable and tried to expose any design flaws that the library could have, as well as where it can be improved in the future.
-![PONG](https://user-images.githubusercontent.com/48070316/162490534-f90b9732-745c-40f3-b5b0-4ed24386a077.png)
+![Pong](https://user-images.githubusercontent.com/48070316/162490534-f90b9732-745c-40f3-b5b0-4ed24386a077.png)
 
 ## *Acknowledgements*
 
