@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="deps">
+      <UniqueIdentifier>{F1A1957C-DDD8-960D-86C5-7C1072DB120F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\NetworkLibrary">
+      <UniqueIdentifier>{DFAD44AD-4B0F-22BB-D47C-686D40DD587A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\SFML-2.5.1">
+      <UniqueIdentifier>{B3437574-1FCF-E238-28E0-652D94EA3E39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\SFML-2.5.1\include">
+      <UniqueIdentifier>{266E9818-92A5-E0AF-9BAF-44D3076607A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\SFML-2.5.1\include\SFML">
+      <UniqueIdentifier>{076D322B-F327-22D7-9CDF-9A2188796C67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\SFML-2.5.1\include\SFML\Audio">
+      <UniqueIdentifier>{4864E461-34A0-E7CB-9DB2-FFC2890D90E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\SFML-2.5.1\include\SFML\Graphics">
+      <UniqueIdentifier>{27CD7A9A-9391-798A-5CF7-A954C87A15C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\SFML-2.5.1\include\SFML\Network">
+      <UniqueIdentifier>{80661A31-6C4D-DC28-159E-42460164558F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\SFML-2.5.1\include\SFML\System">
+      <UniqueIdentifier>{3B92BEC8-A74B-2973-30AB-434D9C63DFE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\SFML-2.5.1\include\SFML\Window">
+      <UniqueIdentifier>{0EACEED0-7A65-597B-03C5-73556F7D0FEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\imgui">
+      <UniqueIdentifier>{1BA06925-0758-AB72-705F-84CE5C364663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\deps\NetworkLibrary\NetworkLibrary.h">
+      <Filter>deps\NetworkLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\AlResource.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\Export.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\Listener.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\Music.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\Sound.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\SoundSource.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Audio\SoundStream.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Config.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\GpuPreference.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\BlendMode.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\CircleShape.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Color.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Drawable.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Export.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Font.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Glsl.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Glyph.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Image.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Rect.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\RenderStates.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Shader.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Shape.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Sprite.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Text.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Texture.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Transform.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Transformable.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\Vertex.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\VertexArray.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\VertexBuffer.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Graphics\View.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Main.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\Export.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\Ftp.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\Http.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\IpAddress.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\Packet.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\Socket.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\SocketHandle.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\SocketSelector.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\TcpListener.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\TcpSocket.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Network\UdpSocket.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\OpenGL.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Clock.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Err.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Export.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\FileInputStream.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\InputStream.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Lock.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\MemoryInputStream.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Mutex.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\NativeActivity.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\NonCopyable.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Sleep.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\String.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Thread.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\ThreadLocal.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Time.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Utf.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Vector2.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\System\Vector3.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Clipboard.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Context.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\ContextSettings.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Cursor.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Event.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Export.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\GlResource.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Joystick.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Keyboard.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Mouse.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Sensor.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Touch.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\VideoMode.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\Window.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\WindowHandle.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\SFML-2.5.1\include\SFML\Window\WindowStyle.hpp">
+      <Filter>deps\SFML-2.5.1\include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imconfig-SFML.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imconfig.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imgui-SFML.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imgui-SFML_export.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imgui.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imgui_internal.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imgui_stdlib.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imstb_rectpack.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imstb_textedit.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\deps\imgui\imstb_truetype.h">
+      <Filter>deps\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Ball.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Player.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ServerPongApp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\deps\imgui\imgui-SFML.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\deps\imgui\imgui.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\deps\imgui\imgui_demo.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\deps\imgui\imgui_draw.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\deps\imgui\imgui_stdlib.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\deps\imgui\imgui_widgets.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Ball.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MainServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ServerPongApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

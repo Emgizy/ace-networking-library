@@ -1,0 +1,14 @@
+﻿  imgui-SFML.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_stdlib.cpp
+  imgui_widgets.cpp
+  Ball.cpp
+  MainServer.cpp
+  Player.cpp
+  ServerPongApp.cpp
+D:\Marc\SHU\TCP\Technical-Computing-Project\Deliverables\3. Pong\Code\src\ServerPongApp.cpp(218,22): warning C4389: '==': signed/unsigned mismatch
+D:\Marc\SHU\TCP\Technical-Computing-Project\Deliverables\3. Pong\Code\src\ServerPongApp.cpp(238,23): warning C4389: '==': signed/unsigned mismatch
+  Generating Code...
+  Pong_Server.vcxproj -> D:\Marc\SHU\TCP\Technical-Computing-Project\Deliverables\3. Pong\Code\bin\Release\Pong_Server_r.exe
