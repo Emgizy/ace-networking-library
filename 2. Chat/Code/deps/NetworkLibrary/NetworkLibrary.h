@@ -4,7 +4,7 @@
 #define DEFAULT_PORT "8888"
 
 // host
-#define DEFAULT_HOST "100.67.75.4"  // "127.0.0.1" for localhost
+#define DEFAULT_HOST "127.0.0.1"  // "127.0.0.1" for localhost
 
 // max packet size
 #define MAX_PACKET_SIZE 1000000
